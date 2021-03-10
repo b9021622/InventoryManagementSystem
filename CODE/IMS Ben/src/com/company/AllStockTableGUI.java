@@ -14,7 +14,7 @@ public class AllStockTableGUI  {
 
 
     public static void main(int BackClass) {
-        JButton backbtn = new JButton("Back" );  // initialises back button component in GUI Frame
+        JButton backbtn = new JButton("Black" );  // initialises back button component in GUI Frame
         String [][] lemons = ViewStock.view();  // takes all entries from the stock table and places them in  2D array
         DefaultTableModel tableModel = new DefaultTableModel(); // Initialises table model
         JTable table = new JTable(tableModel); // Initialises table based on model

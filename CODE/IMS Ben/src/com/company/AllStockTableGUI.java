@@ -12,6 +12,10 @@ import java.sql.SQLException;
 
 public class AllStockTableGUI  {
 
+    /***
+     *
+     * @param BackClass
+     */
 
     public static void main(int BackClass) {
         JButton backbtn = new JButton("Back" );  // initialises back button component in GUI Frame
